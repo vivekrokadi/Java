@@ -1,16 +1,17 @@
 import java.util.Scanner;
 
-public class Factorial {
+public class CountDigit {
     public static void main(String[] args) {
-        int n, fact = 1;
         Scanner sc = new Scanner(System.in);
+        int n, rem, count=0;
         System.out.println("Enter a Number: ");
         n = sc.nextInt();
-
-        for(int i=1; i<=n; i++){
-            fact = fact * i;
+        while (n>0) {
+            rem = n%10;
+            count++;
+            n = n/10;
         }
-        System.out.println("Factorial = " + fact);
-
+ 
+        System.out.println("No. Of Digits: "+count);
     }
 }

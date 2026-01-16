@@ -12,7 +12,6 @@ public class Armstrong {
 
         if (num < 0) {
             System.out.println("Not an Armstrong Number");
-            sc.close();
             return;
         }
 
@@ -33,7 +32,7 @@ public class Armstrong {
         if (original == sum) {
             System.out.println("Armstrong No.");
         } else {
-            System.out.println("Not a Armstrong No.");
+            System.out.println("Not an Armstrong No.");
         }
     }
 }

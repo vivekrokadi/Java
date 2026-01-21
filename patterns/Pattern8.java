@@ -1,0 +1,27 @@
+/*
+
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+6 6 6 6 6 6
+
+*/
+
+import java.util.Scanner;
+
+public class Pattern8 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a No.: ");
+        int n = sc.nextInt();
+
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=i; j++){
+                System.err.print(i+" ");
+            }
+            System.err.println("");
+        }
+    }
+}

@@ -19,9 +19,9 @@ public class Pattern8 {
 
         for(int i=1; i<=n; i++){
             for(int j=1; j<=i; j++){
-                System.err.print(i+" ");
+                System.out.print(i+" ");
             }
-            System.err.println("");
+            System.out.println("");
         }
     }
 }
